@@ -1,0 +1,2 @@
+In this project our goal is to extract features from texture images and classify them.
+For feature extraction, Law's Filters are used. Classification is done by SVM. The details of this project can be found in the .pdf file report.
