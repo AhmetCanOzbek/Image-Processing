@@ -1,0 +1,20 @@
+%Labels
+objectLabels = cell(nOfObjects,1);
+objectLabels{1,1} = '0';
+objectLabels{2,1} = 'S';
+objectLabels{3,1} = '1';
+objectLabels{4,1} = 'P';
+objectLabels{5,1} = '2';
+objectLabels{6,1} = 'E';
+objectLabels{7,1} = '3';
+objectLabels{8,1} = 'D';
+objectLabels{9,1} = '4';
+objectLabels{10,1} = '5';
+objectLabels{11,1} = 'L';
+objectLabels{12,1} = '6';
+objectLabels{13,1} = 'I';
+objectLabels{14,1} = 'M';
+objectLabels{15,1} = '7';
+objectLabels{16,1} = '8';
+objectLabels{17,1} = 'T';
+objectLabels{18,1} = '9';
