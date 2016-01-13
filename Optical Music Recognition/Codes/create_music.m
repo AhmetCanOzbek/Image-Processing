@@ -1,24 +1,24 @@
 function [] = create_music(sound_data,n_of_StaffBlocks)
 
 dim_sound = size(sound_data);
+full_music = [];
 
 for i=1:dim_sound(1)
-    for j = 1:dim_sound(2)       
-        
+    for j = 1:dim_sound(2)        
         %note
         note = get_pitch_name(sound_data(i,j,1));
         %duration
         template_number = sound_data(i,j,2);
         duration = template2duration(template_number);
         
-        %***create sound***
+        %***create sound***        
         if((note~='x') & (duration~=0))
-        nsound(note,duration);
-        end
-        
-        
+            full_music = [full_music ksPlayNote(note,duration,44100)'];
+            %pause(duration);
+        end          
     end
 end
+wavwrite(full_music, 44100, 'jingle_ks.wav');
 
 end
 

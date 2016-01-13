@@ -9,9 +9,9 @@ t{6} = eight;
 t{7} = gclef;
 t{8} = bar;
 t{9} = whole_lined;
-t{10}=half_lined;
-t{11}=sharp;
-t{12}=fclef;
+% t{10}=half_lined;
+% t{11}=sharp;
+% t{12}=fclef;
 
 how_many_template = max(size(t));
 

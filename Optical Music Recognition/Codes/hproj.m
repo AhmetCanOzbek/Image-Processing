@@ -11,9 +11,9 @@ for i=1:m
         hproj(i,1) = hproj(i,1) + im(i,j);        
     end    
 end
-figure();stem(hproj,'marker','none');
+% figure();stem(hproj,'marker','none');
 
-staff_locs = find(hproj>max(hproj/3)); %burda openingle olan kesi?imini de ald?rabilirsin
+staff_locs = find(hproj>max(hproj/3)); 
 
 StaffPixelN=1;StaffLineN=1;StaffBlockN=1; 
 y(StaffBlockN, StaffLineN, StaffPixelN) = staff_locs(1);

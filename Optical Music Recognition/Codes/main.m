@@ -23,9 +23,9 @@ im = otsu_threshold(im);
 if(need == 1)
 im = imclose(im,ones(3,3));
 end
-figure();imshow(~im);
-imwrite(~im,'skewcorrectguzel.png','png');
-title('Skew Corrected and Otsu Thresholding done');
+% figure();imshow(~im);
+% imwrite(~im,'skewcorrectguzel.png','png');
+% title('Skew Corrected and Otsu Thresholding done');
 
 
 %take h projection
