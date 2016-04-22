@@ -1,4 +1,4 @@
-In this project, the goal is to design a system that can interpret sheet music or printed scores into editable or playable form.
+In this project, the goal is to design a system that can interpret sheet music or printed scores into playable form.
 
 This system can actually read and play relatively simple music sheets, that is why it is one of the most fun and interesting projects that I worked on.
 
